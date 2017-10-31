@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+//splast activity 
 public class Splash extends AppCompatActivity {
 
     @Override
@@ -21,7 +21,7 @@ public class Splash extends AppCompatActivity {
                 startActivity(i);
             }
         };
-
+        //main activity will start after 3000 millisecond
         handler.postDelayed(runnable,3000);
     }
 }
